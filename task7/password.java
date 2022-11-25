@@ -2,12 +2,10 @@ import java.util.*;
 public class password {
     String name;
 
-    public static boolean isLetter(char l)
-    {
+    public static boolean isLetter(char l) {
         return (l >= 'a' && l <= 'z');
     }
-    public static boolean isDigit(char l)
-    {
+    public static boolean isDigit(char l) {
         return (l >= '0' && l <= '9');
     }
 
@@ -23,7 +21,6 @@ public class password {
                 System.out.println(" A password consists of only letters and digits");
                 return;
             } 
-            
             if(name.charAt(i) >= '0' && name.charAt(i) <= '9') {
                 amountDigit++; 
             }
