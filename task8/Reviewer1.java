@@ -3,12 +3,10 @@ public class Reviewer1 {
     int movieIndex;
     int rating;
 
-    public void setRating1(int movieIndex, int rating)
-    {
+    public void setRating1(int movieIndex, int rating){
         ratings[movieIndex] = rating;
     }
-    public int getRating1(int movieIndex)
-    {
+    public int getRating1(int movieIndex){
         return ratings[movieIndex];
     }
     public int favourite1() {
