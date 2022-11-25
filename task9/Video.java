@@ -6,36 +6,27 @@ public class Video {
     int ratingSum = 0;
     int ratingCount = 0;
 
-    public void setTitle(String title)
-    { 
+    public void setTitle(String title){ 
         this.title = title;
     }
-
-    public String getTitle() 
-    {
+    public String getTitle() {
         return title;
     }
-
     public void addRating(int rate) {
         ratingSum = rate + ratingSum; 
         ratingCount++;
         avarageRating = ratingSum/ ratingCount;
     }
-
-    public double getRating() 
-    {
+    public double getRating() {
         return avarageRating;
     }
-    public void CheckOut()
-    { 
+    public void CheckOut(){ 
         checkOut = true;
     }
-    public void returnToStore() 
-    {
+    public void returnToStore() {
        checkOut = false;
     }
-    public boolean isCheckOut()
-    {
+    public boolean isCheckOut(){
         return checkOut;
     }
 }
