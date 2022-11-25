@@ -19,37 +19,19 @@ public class Car {
     Car2 car = new Car2("Honda", "classA", 150, new Driver("Петя", 5), new Engine(60, "Honda"))
     */
 
-    public void  start()
-    {
+    public void  start(){
         System.out.println("Поехали");
     }
-
-    public void  stop()
-    {
+    public void  stop(){
         System.out.println("Останавливаемся");
     }
-
-    public void  turnRight()
-    {
+    public void  turnRight(){
         System.out.println("Поворот направо");
     }
-
-    public void  turnLeft()
-    {
+    public void  turnLeft(){
         System.out.println("Поворот налево");
     }
-
     public String toString() {
         return("Марка автомобиля - " + brend + ", Класс автомобиля - " + classAuto + ", Вес автомобиля - " + weight + ", Водитель - " + driver + ", Мотор" + engine);
     }
-    
-
-
-
-
-
-
-
-
-    
 }
