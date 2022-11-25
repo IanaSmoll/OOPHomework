@@ -6,13 +6,11 @@ public class Horse extends Animal {
     }
 
     @Override
-    public void makeNoise()
-    {
+    public void makeNoise(){
         System.out.println("Лошадь говорит");
     }
 
-    public void eat()
-    {
+    public void eat(){
         System.out.println("Лошадь ест");
     }
 }
