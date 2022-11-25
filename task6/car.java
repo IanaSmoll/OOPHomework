@@ -3,28 +3,22 @@ public class car {
     String make;
     int speed;
 
-public void setYear(int year) 
-{
+public void setYear(int year) {
     this.year = year;
 }  
-public void setMake(String make) 
-{
+public void setMake(String make) {
     this.make = make;
 }  
-public void setSpeed(int speed) 
-{
+public void setSpeed(int speed) {
     this.speed = speed;
 } 
-public int getYear()
-{
+public int getYear(){
     return year;
 }
-public String getMake()
-{
+public String getMake(){
     return make;
 }
-public int getSpeed()
-{
+public int getSpeed(){
     return speed;
 }
 
