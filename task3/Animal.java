@@ -8,18 +8,13 @@ public class Animal {
         this.food = food;
         this.location = location;
     }
-    public void makeNoise()
-    {
+    public void makeNoise(){
         System.out.println("Какое-то животное говорит");
     }
-
-    public void eat()
-    {
+    public void eat(){
         System.out.println("Какое-то животное ест");
     }
-
-    public void sleep()
-    {
+    public void sleep(){
         System.out.println("Какое-то животное спит");
     }
 }
