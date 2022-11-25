@@ -3,33 +3,22 @@ public class pet {
     String animal;
     int age;
     
-    public void setName(String name)
-    {
+    public void setName(String name){
         this.name = name;
     }
-
-    public void setAnimal(String animal)
-    {
+    public void setAnimal(String animal){
         this.animal = animal;
     }
-
-    public void setAge(int age)
-    {
+    public void setAge(int age){
         this.age = age;
     }
-
-    public String getName()
-    {
+    public String getName(){
         return name;
     }
-
-    public String getAnimal()
-    {
+    public String getAnimal(){
         return animal;
     }
-
-    public int getAge()
-    {
+    public int getAge(){
         return age;
     }
 
